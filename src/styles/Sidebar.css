@@ -1,0 +1,47 @@
+.files-dropdown-container {
+  padding: 0;
+}
+#dropdown-basic {
+  width: 100%;
+  background-color: #21222c;
+  border-color: #21222c;
+}
+#folder-plus-container {
+  margin-left: 50%;
+  position: relative;
+}
+#folder-plus-icon-container {
+  position: absolute;
+  top: 22%;
+}
+#sidenav-container {
+  background-color: yellow;
+}
+#sidebar-list-items-container ul li a {
+  color: grey;
+}
+.sidebar-list-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#sidebar-text-heading {
+  background-color: #323544;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 2px;
+  padding: 2%;
+}
+.sidebar-list-items li a {
+  text-decoration: none;
+  color: white;
+}
+#sidebar-show-all-text-container {
+  margin-top: 4px;
+  padding: 1px;
+  font-size: 13px;
+}
+#sidebar-show-all-text-container a {
+  color: #6c6979;
+  text-decoration: none;
+}
