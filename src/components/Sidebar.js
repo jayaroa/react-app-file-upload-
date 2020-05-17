@@ -15,10 +15,13 @@ const Sidebar = () => {
   return (
     <Container>
       <Row>
-        <Col className="files-dropdown-container">
-          <Dropdown id="asas">
-            <Dropdown.Toggle variant="success" id="dropdown-basic" >
-              Files
+        <Col className="sidebar-col-1-stack-icon">
+          <img src="./images/stack-icon-png.png" alt="stack icon" id="sidebar-stack-icon-img" />
+        </Col>
+        <Col className="sidebar-col-2-files-dropdown files-dropdown-container">
+        <Dropdown>
+            <Dropdown.Toggle variant="success" className="dropdown-basic" >
+              <span style={{ marginLeft: '-50px' }}>Files</span>
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
@@ -28,22 +31,22 @@ const Sidebar = () => {
             </Dropdown.Menu>
           </Dropdown>
         </Col>
-        <Col id="folder-plus-container">
+        <Col className="sidebar-col-3-folder-plus-icon" id="folder-plus-icon-container">
           <div id="folder-plus-icon-container">
-            <i class="fas fa-plus fa-md" style={{ cursor: 'pointer' }}></i>
+            <i className="fas fa-plus-square fa-lg cursor-pointer" />
           </div>
         </Col>
       </Row>
       <Row>
-        <Col id="sidebar-list-items-container">
+        <Col id="sidebar-list-items-container" style={{ margin: 0, padding: 0 }}>
           <ul className="sidebar-list-items">
-            <SidebarItems items={['Inbox', 'Sketching']} />
-          </ul>
-
-          <div id="sidebar-text-heading">UI/UX First Course</div>
-          
-          <ul className="sidebar-list-items">
-            <SidebarItems items={['Introducing to CSS...', 'Introducing to HTM...']} />
+            <SidebarItems items={[
+                'Inbox', 
+                'Sketching', 
+                'Introducing to CSS...', 
+                'Introducing to HTM...'
+              ]} 
+            />
           </ul>
 
           <div id="sidebar-show-all-text-container">

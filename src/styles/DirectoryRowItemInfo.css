@@ -1,0 +1,13 @@
+.directory-row-item-info-container {
+  margin-left: 6px;  
+  float: right;
+  color: grey;    
+}
+.directory-row-item-info-icons {
+  margin-left: 10px;
+}
+.directory-row-item-info-cross {
+  margin-left: 20px;
+  color: rgb(85, 84, 84);
+}
+  

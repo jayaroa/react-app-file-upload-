@@ -1,0 +1,130 @@
+#right-top-container {
+  margin-bottom: 10px;
+}
+.right-top-add-folder-btn {
+  font-size: 15px;
+  width: 90%;
+  height: 38px;
+  margin-left: 15px;
+}
+#breadcrumbs-container {
+  margin-top: 8px;
+}
+#third-col-container {
+  margin-top: 8px;
+  margin-right: 9px;
+}
+#date-uploaded-dropdown {
+  width: 100%;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+#date-uploaded-dropdown .show > .btn-success.dropdown-toggle {
+  background-color: white;
+  border-color: white;
+}
+#date-uploaded-dropdown .btn-success:focus {
+  background-color: white;
+border-color: white;
+box-shadow: 0 0 0 .2rem white;
+}
+#date-uploaded-dropdown .btn-success:not(:disabled):not(.disabled):active {
+  background-color: white;
+border-color: white;
+}
+#date-uploaded-dropdown btn-success:hover {
+  background-color: white;
+  border-color: white;
+}
+
+
+
+
+.right-section-top-icon-styles {
+  margin-top: 7px;
+  color: grey;
+}
+#right-section-top-gallery-icon {
+  margin-left: 5px;
+}
+.right-section-top-icon-margin {
+  margin-left: 20px;
+}
+#right-sec-extreme-right-btn {
+  width: 80%;
+  height: 100%;
+  font-size: 13px;
+  margin-left: 30px;
+}
+.right-top-itemTextAndFilterFeaturesMargin {
+  margin-top: 5px;
+}
+#date-uploaded-dropdown-container {
+  width: 140px;
+  margin-top: -1px;
+}
+
+#right-top-col-1-add-folder-btn {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#right-top-col-2-nav-menu {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#right-top-col-3-items-text {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#right-top-col-4-date-uploaded-dropdown {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#right-top-col-5-filter-features {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#right-top-col-6-upload-btn {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  #right-top-col-1-add-folder-btn {
+    flex: 0 0 15%;
+    max-width: 15%;
+  }
+  #right-top-col-2-nav-menu {
+    flex: 0 0 32%;
+    max-width: 32%;
+  }
+  #right-top-col-3-items-text {
+    flex: 0 0 11%;
+    max-width: 11%;
+  }
+  #right-top-col-4-date-uploaded-dropdown {
+    flex: 0 0 15%;
+    max-width: 15%;
+  }
+  #right-top-col-5-filter-features {
+    flex: 0 0 11%;
+    max-width: 11%;
+  }
+  #right-top-col-6-upload-btn {
+    flex: 0 0 16%;
+    max-width: 16%;
+  }
+
+}

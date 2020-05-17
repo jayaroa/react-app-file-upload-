@@ -1,0 +1,63 @@
+.directory-row-item-container {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-radius: 5px;
+}
+.directory-row-item-container.row:hover {
+  background-color: #f7f8fa;
+}
+.directory-row-item-folder-icon {
+  color: #8fbffa;
+}
+.directory-row-item-col-1-checkboxAndFolder {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.directory-row-item-col-2-name-area {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.directory-row-item-col-3-date-added {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.directory-row-item-col-4-last-modified {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.directory-row-item-col-5-info {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .directory-row-item-col-1-checkboxAndFolder {
+    flex: 0 0 12%;
+    max-width: 12%;
+  }
+  .directory-row-item-col-2-name-area {
+    flex: 0 0 42%;
+    max-width: 42%;
+  }
+  .directory-row-item-col-3-date-added {
+    flex: 0 0 14%;
+    max-width: 14%;
+  }
+  .directory-row-item-col-4-last-modified {
+    flex: 0 0 14.5%;
+    max-width: 14.5%;
+  }
+  .directory-row-item-col-5-info {
+    flex: 0 0 17.5%;
+    max-width: 17.5%;
+  }
+}

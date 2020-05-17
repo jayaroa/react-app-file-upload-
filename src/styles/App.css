@@ -1,4 +1,96 @@
+#app-top-bar {
+  background-color: #21222c;
+  height: 6vh;
+}
+#app-name {
+  font-size: 22px;
+  font-weight: bolder;
+  font-family: 'Noto Sans JP', sans-serif;  
+  color: white;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+}
+#app-name a {
+  color: white;
+  text-decoration: none;
+}
+#app-logo-container {
+  text-align: center;
+  padding-top: 0.6%;
+}
+#app-logo-container i {
+  color: white;
+}
 .sidebar-col {
   background-color: #21222c;
   color: #ddddde;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.dropdown-basic .dropdown-toggle .btn .btn-success {
+  background-color: white;
+  border-color: white;
+}
+.show>.btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0 #ffffff;
+}
+.show>.btn-success.dropdown-toggle :hover {
+  border-color: white;
+}
+
+.app-first-col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #21222b;
+}
+.app-second-col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.app-third-col {
+  position: relative;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.app-name-margin-col-1 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.app-name-col-2-container {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .app-first-col {
+    flex: 0 0 4%;
+    max-width: 4%;
+  }
+  .app-second-col {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .app-third-col {
+    flex: 0 0 79.333333%;
+    max-width: 79.333333%;
+  }
+
+  .app-name-margin-col-1 {
+    flex: 0 0 4%;
+    max-width: 4%;
+  }
+  .app-name-col-2-container {
+    flex: 0 0 96%;
+    max-width: 96%;
+  }
 }

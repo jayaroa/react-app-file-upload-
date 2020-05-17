@@ -2,14 +2,8 @@
 /*  background-color: purple; */
   height: 100vh;
   margin: 0;
-  width: 100vw;
-}
-#third-col-container {
-/*  background-color: green; */
-  margin-top: 8px;
-}
-#breadcrumbs-container {
-  margin-top: 8px;
+  width: 100%;
+  margin-top: 10px;
 }
 #breadcrumbs a {
   text-decoration: none;

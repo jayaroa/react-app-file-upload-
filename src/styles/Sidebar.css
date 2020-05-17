@@ -1,36 +1,53 @@
+#sidebar-stack-icon-img {
+  width: 20px;
+  height: 20px;
+  margin-left: -5px;
+  margin-top: 10px;
+}
 .files-dropdown-container {
   padding: 0;
 }
-#dropdown-basic {
+.dropdown-basic {
   width: 100%;
   background-color: #21222c;
   border-color: #21222c;
-}
-#folder-plus-container {
-  margin-left: 50%;
-  position: relative;
+  color: grey;
 }
 #folder-plus-icon-container {
-  position: absolute;
-  top: 22%;
+  color: grey;
+  float: right;
+  margin-top: 3.5px;
 }
 #sidenav-container {
   background-color: yellow;
 }
-#sidebar-list-items-container ul li a {
+#sidebar-list-items-container {
+  padding-left: 13px;
+}
+#sidebar-list-items-container li {
+  height: 35px;
+  padding-top: 4px;
+  padding-left: 24px;
+}
+#sidebar-list-items-container li:hover {
+  background-color: #323443;
+  border-radius: 4px;
+}
+#sidebar-list-items-container ul {
   color: grey;
+  text-decoration: none;
+  vertical-align: middle;
+}
+#sidebar-list-items-container ul a {
+  color: grey;
+  text-decoration: none;
+  vertical-align: middle;
 }
 .sidebar-list-items {
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
-#sidebar-text-heading {
-  background-color: #323544;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  border-radius: 2px;
-  padding: 2%;
+  font-size: 17px;
 }
 .sidebar-list-items li a {
   text-decoration: none;
@@ -39,9 +56,60 @@
 #sidebar-show-all-text-container {
   margin-top: 4px;
   padding: 1px;
-  font-size: 13px;
+  font-size: 14px;
+  padding-left: 23px;
 }
 #sidebar-show-all-text-container a {
   color: #6c6979;
   text-decoration: none;
+}
+.show > .btn-success.dropdown-toggle {
+  background-color: #21222c;
+  border-color: #21222c;
+}
+.btn-success:focus {
+  background-color: #21222c;
+border-color: #21222c;
+box-shadow: 0 0 0 .2rem #21222c;
+}
+.btn-success:not(:disabled):not(.disabled):active {
+  background-color: #21222c;
+border-color: #21222c;
+}
+.btn-success:hover {
+  background-color: #21222c;
+  border-color: #21222c;
+}
+
+
+
+.sidebar-col-1-stack-icon {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.sidebar-col-2-files-dropdown {
+  position: relative;
+  width: 100%;
+}
+.sidebar-col-3-folder-plus-icon {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 576px) {
+  .sidebar-col-1-stack-icon {
+    flex: 0 0 14%;
+    max-width: 14%;
+  }
+  .sidebar-col-2-files-dropdown {
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+  .sidebar-col-3-folder-plus-icon {
+    flex: 0 0 31%;
+    max-width: 31%;
+  }
 }
